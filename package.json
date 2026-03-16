@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build && npm run capacitor:copy",
+    "build": "next build",
+    "build:mobile": "next build && npm run capacitor:copy",
     "capacitor:build:android": "cap run android",
     "capacitor:build:ios": "cap run ios",
     "capacitor:copy": "cap copy",
