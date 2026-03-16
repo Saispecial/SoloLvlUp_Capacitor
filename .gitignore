@@ -1,0 +1,64 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Capacitor / Mobile
+ios/
+android/
+.capacitor/
+
+# Android Studio / Gradle
+android/.gradle/
+android/.idea/
+android/local.properties
+android/build/
+android/app/build/
+android/captures/
+android/*.iml
+android/.externalNativeBuild
+android/.cxx/
+
+# Keystore files (CRITICAL - NEVER COMMIT!)
+*.jks
+*.keystore
+keystore.properties
+android/app/*.jks
+android/app/*.keystore
+android/app/keystore.properties
+
+# iOS (Xcode)
+ios/App/Pods/
+ios/App/*.xcworkspace
+ios/App/App.xcodeproj/xcuserdata/
+ios/App/App.xcodeproj/project.xcworkspace/xcuserdata/
+ios/App/DerivedData/
+
+# Capacitor
+android/app/src/main/assets/public/
+ios/App/App/public/
+
+.vercel
